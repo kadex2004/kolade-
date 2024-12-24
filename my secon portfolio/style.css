@@ -1,0 +1,267 @@
+body{
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #01332B;
+  color: aliceblue;
+  padding: 0 1rem;
+
+}
+.logo a{
+  color: #8ec4b6;
+  text-decoration: none;
+}
+.logo span{
+  color: #8ec4b6;
+}
+.nav ul{
+  display: flex;
+  list-style-type: none;
+
+}
+.nav ul li{
+  margin: 0 10px;
+  padding: 0 10px;
+
+}
+.nav ul li a{
+  text-decoration: none;
+  color:#8ec4b6;
+  font-size: 15px;
+  transition: all ease .1s;
+}
+.nav ul li a:hover{
+  color: #b4c6c7;
+  text-decoration: overline underline;
+  
+}
+#home{
+  padding: 90px 0;
+  .heading1{
+    width: 80%; 
+    margin: auto;
+    overflow: hidden;
+    h1{
+      color:#01332B;
+      text-align: center;
+      font-size: 1.9rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      padding-top: 40px;
+  
+    }
+  }
+}
+#home p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #01332B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.96rem;
+}
+#home p > span{
+  position: relative;
+  display: inline-block;
+  height: 1.15rem;
+  vertical-align: bottom;
+  overflow: hidden;
+}
+#home p > span > span{
+  display: block;
+  animation: animatewords 5s infinite ease;
+}
+ @keyframes animatewords {
+  0% { transform: translateY(0%);}
+  25% { transform: translateY(-100%);}
+  50% { transform: translateY(-200%);}
+  75% { transform: translateY(-300%);}
+  100% { transform: translateY(-400%);}
+}
+#About{
+  background-color: #01332B;
+  padding: 50px 0;
+}
+.container{
+  width: 80%; 
+  margin: auto;
+  overflow: hidden;
+}
+#About h2{
+  color: #ccc;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+#About p{
+  color: #ccc;
+  font-size: 14px;
+  text-align: center;
+}
+#service {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+#service h2 {
+  text-align: left;
+  color: #01332B;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.service {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #18c2a6;
+}
+
+.service h3 {
+  margin-bottom: 10px;
+  color: #01332B;
+  font-size: 1.5em;
+}
+
+.service p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #251b2b;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#skill {
+  background-color:#01332B;
+  padding: 50px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#skill h2{
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.skill {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+  margin-bottom: 10px;
+  text-align: left;
+  color: #012c25;
+  font-size: 1.5em;
+}
+
+.skill p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #251b2b;
+}
+#contact {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#contact h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #01332B;
+}
+
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#contact button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #01332B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+#contact button[type="submit"]:hover {
+  background-color: #025c4d;
+}
+footer{
+  background-color: #012c25;
+}
+footer button{
+    border: none;
+    border-radius: 9px;
+    background-color: #012c25;
+    color: #c4c4db;
+    margin: auto;
+    width: 90px;
+    padding: 6px;
+    cursor: pointer;
+
+}
+footer p{
+  color: #025c4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+.foot{
+  text-align: center;
+}
